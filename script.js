@@ -229,6 +229,8 @@ switch (lesson) {
     console.log(result);
     break;
   }
+  default:
+    alert("Нет такого задания");
 }
 
 //Циклы!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -286,7 +288,7 @@ switch (lesson2) {
       let whileConfirm;
       while (!whileConfirm) {
         whileConfirm = confirm("");
-      } 
+      }
     })();
 
     break;
@@ -395,6 +397,7 @@ switch (lesson2) {
     // текстом: “Вы уверены, что хотите отменить авторизацию?”. Если ответ утвердительный,
     // тогда выдать сообщение “Вы отменили авторизацию”, если ответ отрицательный,
     // тогда снова выдать запрос пароля
+
     const password = "qwerty";
     let user = "";
     outer: while (user !== password) {
@@ -427,4 +430,6 @@ switch (lesson2) {
 
     break;
   }
+  default:
+    alert("Нет такого задания");
 }
